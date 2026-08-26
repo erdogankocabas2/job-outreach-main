@@ -1,0 +1,79 @@
+campaign:
+  name: job-outreach-2026-08
+  timezone: Europe/Istanbul
+  target_leads: 100
+  preview_count: 5
+  approval_required: true
+  scheduled_start: "2026-08-19T10:06:00+03:00"
+  send_interval_seconds: 30
+  max_retries_per_email: 1
+  followups_enabled: false
+
+candidate:
+  name: Erdoğan Kocabaş
+  cv_path: assets/erdogan_kocabas_cv.pdf
+  target_roles:
+    - Product
+    - Growth
+    - Business Development
+
+company_icp:
+  geography: Turkey
+  work_modes_for_selection:
+    - Istanbul
+    - Hybrid
+    - Remote
+  mention_work_mode_in_email: false
+  max_employees: 50
+  sectors:
+    - AI
+    - SaaS
+    - Gaming
+  funding:
+    funded: outreach_eligible
+    unfunded_exceptional: watchlist_only
+  scoring_weights:
+    founder_quality: 0.35
+    company_potential: 0.30
+    sector_fit: 0.20
+    funding_traction: 0.15
+
+founder_quality:
+  primary_signals:
+    - strong_university_background
+    - strong_company_background
+
+contacts:
+  max_per_company: 3
+  priority:
+    - Founder/Co-founder
+    - Chief of Staff/Founder's Office
+    - People/HR
+    - Head of Growth/Product/Business Development
+
+honorific:
+  allowed:
+    - Hanım
+    - Bey
+  uncertain_action: NEEDS_GENDER_REVIEW
+  risk_policy: do_not_send_if_uncertain
+
+email_enrichment:
+  primary_provider: hunter
+  fallback_provider: apollo
+  allow_pattern_guessing: false
+  allow_personal_webmail: false
+  hunter:
+    eligible_statuses:
+      - valid
+    accept_all_enabled: false
+    minimum_score: 90
+  apollo:
+    enabled_if_api_key_present: true
+
+sending:
+  provider: gmail_api
+  require_oauth: true
+  require_attachment: true
+  attachment_path: assets/erdogan_kocabas_cv.pdf
+  subject: "Selam & Tanışma"
