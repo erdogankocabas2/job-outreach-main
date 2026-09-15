@@ -14,9 +14,3 @@ CV'mi ekte paylaşıyorum.
 
 Çok teşekkürler,
 Erdoğan
-
-# Validation rules
-# - honorific must be exactly Hanım or Bey
-# - personalization_paragraph: 1–2 short sentences, no line breaks preferred
-# - attachment required: assets/erdogan_kocabas_cv.pdf
-# - subject is immutable

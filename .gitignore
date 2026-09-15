@@ -3,7 +3,7 @@ credentials/client_secret.json
 credentials/token.json
 credentials/*.json
 !credentials/README.md
-data/*.db
+data/*.db*
 data/logs/
 exports/*.xlsx
 __pycache__/

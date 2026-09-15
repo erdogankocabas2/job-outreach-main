@@ -1,0 +1,16 @@
+SUBJECT: Selam & Tanışma
+
+Merhaba {{first_name}} {{honorific}},
+
+Ben Erdoğan. Boğaziçi Üniversitesi endüstri mühendisliği öğrencisiyim ve önümüzdeki dönem mezun olacağım. Nasılsınız😊
+
+1. sınıftan beri P&G, QNB, Pfizer gibi global şirketlerde iş geliştirme, pazarlama, satış gibi alanlarda deneyimler edindim ve mezuniyetim yaklaşırken kariyerimdeki next big thing'i kurguluyorum.
+
+Mühendislik eğitimim ve kuvvetli business sense'im ile teknoloji odaklı, küçük ve dinamik bir şirkette, global etki yaratabileceğim bir kariyer inşa etmek istiyorum. Burada da oyun şirketlerinin kültürü, sunduğu deneyim ve ownership benim için biçilmiş kaftan.
+
+Araştırmalarım sırasında {{company_name}} ile karşılaştım ve şirketin kuruluşu ve ilerlediği yol beni çok etkiledi ve bu yolculukta birlikte yapabileceklerimiz olduğunu düşündüğüm için size ulaşıyorum. Tanışmak ve birlikte yapabileceklerimizi keşfetmek çok isterim.
+
+CV'mi ekte paylaşıyorum.
+
+Çok teşekkürler,
+Erdoğan
